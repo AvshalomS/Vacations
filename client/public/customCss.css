@@ -1,0 +1,34 @@
+.requerd {
+  color: red;
+}
+#loginTitle {
+  text-align: center;
+}
+/* .Card.Img {
+  width: 100%;
+} */
+/* כך נדאג שהתמונות יוצגו באופן שווה */
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+/* כך נגדיר לחצנים בצורת עיגול */
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  /* font-size: 24px; */
+  font-size: 12px;
+  line-height: 1.33;
+}

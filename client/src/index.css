@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Custom css ------------------------------------------------------------------------------------ */
+body,
+html {
+  height: 100%;
+}
+
+.wellcomeBackGround {
+  /* The image used */
+  background-image: url("./images/wellcome.jpg");
+
+  /* Full height */
+  height: 40pc;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* MarginTop */
+  margin-top: 58px;
+}
+/* Login user mode css */
+.customLoginCss {
+  /* The image used */
+  background-image: url("./images/backGrounds/background-close-up-color-933148.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+  /* MarginTop */
+  margin-top: 58px;
+  padding: 15px;
+}
+
+/* Card custom css */
+.myCardCss {
+  margin-top: 15px;
+  /* The image used */
+  background-image: url("./images/backGrounds/background-close-up-color-941551.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+/* Reports css */
+.myReportsCss {
+  /* MarginTop */
+  margin-top: 58px;
+  padding: 10px;
+}
+
+/* Form validation */
+.requerd {
+  color: red;
+}
+#loginTitle {
+  text-align: center;
+}
